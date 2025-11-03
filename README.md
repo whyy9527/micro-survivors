@@ -1,4 +1,3 @@
-````markdown
 # Micro Survivors 🎮
 
 A roguelike survivor game built with React + TypeScript, inspired by Vampire Survivors-style games.
@@ -82,5 +81,3 @@ src/
 ## License
 
 MIT License
-
-````
