@@ -1,83 +1,86 @@
+````markdown
 # Micro Survivors 🎮
 
-一个基于 React + TypeScript 构建的微缩幸存者游戏，灵感来自 Vampire Survivors 类游戏。
+A roguelike survivor game built with React + TypeScript, inspired by Vampire Survivors-style games.
 
-## 游戏特色
+## Features
 
-- 🎯 自动攻击的幸存者游戏玩法
-- 🎨 精美的 Canvas 渲染效果
-- 📱 支持移动端触控操作
-- ⚔️ 多种武器和技能系统
-- 🎯 天赋和升级系统
-- 💾 本地存档功能
+- 🎯 Auto-attacking survivor gameplay
+- 🎨 Beautiful Canvas rendering effects
+- 📱 Mobile-friendly touch controls
+- ⚔️ Multiple weapons and skill system
+- 🎯 Talent and upgrade system
+- 💾 Local save functionality
 
-## 技术栈
+## Tech Stack
 
-- **前端框架**: React 18 + TypeScript
-- **构建工具**: Vite
-- **样式**: Tailwind CSS
-- **游戏引擎**: 自定义 Canvas 渲染引擎
-- **状态管理**: React Hooks
-- **包管理器**: pnpm
+- **Frontend Framework**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **Game Engine**: Custom Canvas rendering engine
+- **State Management**: React Hooks
+- **Package Manager**: pnpm
 
-## 快速开始
+## Quick Start
 
-### 安装依赖
+### Install Dependencies
 
 ```bash
 pnpm install
 ```
 
-### 开发模式
+### Development Mode
 
 ```bash
 pnpm dev
 ```
 
-访问 http://localhost:3000 查看游戏。
+Visit <http://localhost:3000> to play the game.
 
-### 构建生产版本
+### Build Production Version
 
 ```bash
 pnpm build
 ```
 
-### 预览构建结果
+### Preview Build
 
 ```bash
 pnpm preview
 ```
 
-## 游戏玩法
+## Gameplay
 
-1. **移动**: 使用 WASD 或方向键移动角色
-2. **自动攻击**: 角色会自动攻击附近的敌人
-3. **升级**: 击败敌人获得经验，升级时选择新的武器或技能
-4. **生存**: 尽可能长时间生存，击败更多敌人
+1. **Movement**: Use WASD or arrow keys to move your character
+2. **Auto-Attack**: Your character automatically attacks nearby enemies
+3. **Leveling Up**: Defeat enemies to gain experience, choose new weapons or skills when leveling up
+4. **Survival**: Survive as long as possible and defeat more enemies
 
-## 项目结构
+## Project Structure
 
 ```
 src/
-├── MicroSurvivors/     # 游戏核心代码
-│   ├── entities/       # 游戏实体
-│   ├── systems/        # 游戏系统
-│   ├── ui/            # 用户界面组件
-│   ├── utils/         # 工具函数
-│   ├── Game.tsx       # 游戏主组件
-│   ├── GameEngine.ts  # 游戏引擎
-│   └── GameRenderer.ts # 渲染器
-├── App.tsx            # 应用根组件
-└── main.tsx           # 应用入口
+├── game/              # Game core code
+│   ├── entities/      # Game entities
+│   ├── systems/       # Game systems
+│   ├── ui/           # UI components
+│   ├── utils/        # Utility functions
+│   ├── Game.tsx      # Main game component
+│   ├── GameEngine.ts # Game engine
+│   └── GameRenderer.ts# Renderer
+├── App.tsx           # Root component
+└── main.tsx          # Application entry point
 ```
 
-## 开发说明
+## Development Notes
 
-- 游戏使用 Canvas 进行高性能渲染
-- 采用组件化架构，便于扩展和维护
-- 支持移动端触控操作
-- 包含完整的游戏状态管理
+- Game uses Canvas for high-performance rendering
+- Component-based architecture for easy extension and maintenance
+- Mobile touch controls support
+- Complete game state management
 
-## 许可证
+## License
 
 MIT License
+
+````
